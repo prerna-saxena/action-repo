@@ -1,0 +1,8 @@
+{
+  "type": "string",      // e.g., "push", "pull_request", or "merge"
+  "author": "string",    // Author of the action
+  "branch": "string",    // Branch affected (for push)
+  "from_branch": "string", // Branch source (for pull_request and merge)
+  "to_branch": "string",   // Branch target (for pull_request and merge)
+  "timestamp": "datetime"  // Event time
+}
